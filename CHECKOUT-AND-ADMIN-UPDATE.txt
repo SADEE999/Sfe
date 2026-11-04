@@ -1,0 +1,15 @@
+SADEE XDIMA - CHECKOUT USABILITY UPDATE
+
+Changes in this update:
+- The checkout modal is now height-limited and scrollable on mobile.
+- The Submit payment details button is moved directly below the required eZ Cash transaction reference and remains sticky while scrolling.
+- Optional receipt upload is below the primary submit action, so customers do not have to scroll past it to find the button.
+- Added a short quick-checkout explanation.
+- Added direct Help and Support navigation links to the existing pages.
+- Existing admin loading-screen controls are retained (enable/disable, title, message and duration).
+
+Important:
+- Existing Supabase tables, Netlify Functions, payment verification flow and license-release safeguards are retained.
+- This update does not claim 100 newly implemented features. Do not add fake/inert buttons. Existing admin options should be tested after deployment.
+- No live website or Supabase project was changed by creating this ZIP.
+- Before running SQL on an existing production database, take a backup and review whether the setup SQL is additive or may alter existing objects.
